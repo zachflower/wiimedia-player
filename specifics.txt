@@ -1,0 +1,36 @@
+X1 -> Base: 	118
+Y1 -> Base: 	118
+Z1 -> Base: 	143
+
+X2 -> Down-90: 	118
+Y2 -> Down-90: 	142
+Z2 -> Down-90: 	119
+
+X3 -> Right-90: 142
+Y3 -> Right-90: 118
+Z3 -> Right-90: 119
+
+Zero Points of Each Axis
+------------------------
+X0 -> (X1+X2)/2 = (118+118)/2 = 118
+Y0 -> (Y1+Y3)/2 = (118+118)/2 = 118
+Z0 -> (Z2+Z3)/2 = (119+119)/2 = 119
+
+Force Calculations
+------------------
+X -> (XRaw-X0)/(X3-X0)
+Y -> (YRaw-Y0)/(Y2-Y0)
+Z -> (ZRaw-Z0)/(Z1-Z0)
+
+Two 	1 	0x0001
+One 	2 	0x0002
+B 	3 	0x0004
+A 	4 	0x0008
+Minus 	5 	0x0010
+Home 	8 	0x0080
+Left 	9 	0x0100
+Right 	10 	0x0200
+Down 	11 	0x0400
+Up 	12 	0x0800
+Plus 	13 	0x1000
+
